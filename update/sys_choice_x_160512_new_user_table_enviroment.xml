@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="enviroment" table="x_160512_new_user_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>enviroment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PROD</label>
+            <language>en</language>
+            <name>x_160512_new_user_table</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 23:03:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>58d35c974fc10300cca64ea18110c75a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 23:04:56</sys_updated_on>
+            <value>PROD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>enviroment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DR</label>
+            <language>en</language>
+            <name>x_160512_new_user_table</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 23:04:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fd2494d74fc10300cca64ea18110c787</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 23:04:56</sys_updated_on>
+            <value>DR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>enviroment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>QA</label>
+            <language>en</language>
+            <name>x_160512_new_user_table</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 23:04:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7d2494d74fc10300cca64ea18110c788</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 23:04:56</sys_updated_on>
+            <value>QA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>enviroment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DEV</label>
+            <language>en</language>
+            <name>x_160512_new_user_table</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 23:04:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f92494d74fc10300cca64ea18110c789</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 23:04:56</sys_updated_on>
+            <value>DEV</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>enviroment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SIM</label>
+            <language>en</language>
+            <name>x_160512_new_user_table</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 23:04:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>792494d74fc10300cca64ea18110c78a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 23:04:56</sys_updated_on>
+            <value>SIM</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>enviroment</element>
+            <name>x_160512_new_user_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 23:03:29</sys_created_on>
+            <sys_id>54d35c974fc10300cca64ea18110c75b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>enviroment</sys_name>
+            <sys_package display_value="New User" source="x_160512_new_user">dfc96ac74f010300cca64ea18110c7c2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="New User">dfc96ac74f010300cca64ea18110c7c2</sys_scope>
+            <sys_update_name>sys_choice_x_160512_new_user_table_enviroment</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 23:03:29</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

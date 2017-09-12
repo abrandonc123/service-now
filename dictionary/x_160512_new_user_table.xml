@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="New User Table" max_length="40" name="x_160512_new_user_table" type="collection">
+        <element label="Account End Date" mandatory="true" max_length="40" name="account_end_date" type="glide_date"/>
+        <element label="Account Owner" mandatory="true" max_length="100" name="account_owner" type="string"/>
+        <element label="Account Start Date" mandatory="true" max_length="40" name="account_start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Account Type" mandatory="true" max_length="40" name="account_type" type="choice">
+            <choice>
+                <element label="SAP" sequence="0" value="SAP"/>
+                <element label="Windows" sequence="1" value="Windows"/>
+                <element label="Linux" sequence="2" value="Linux"/>
+                <element label="Other" sequence="3" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="100" name="comments" type="string"/>
+        <element label="Discription of Use" max_length="255" name="discription_of_use" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Environment" mandatory="true" max_length="40" name="enviroment" type="string">
+            <choice>
+                <element label="PROD" sequence="0" value="PROD"/>
+                <element label="DR" sequence="1" value="DR"/>
+                <element label="QA" sequence="2" value="QA"/>
+                <element label="DEV" sequence="3" value="DEV"/>
+                <element label="SIM" sequence="4" value="SIM"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Impact Level" mandatory="true" max_length="40" name="impact_level" type="choice">
+            <choice>
+                <element label="Low" sequence="0" value="Low"/>
+                <element label="Medium" sequence="1" value="Medium"/>
+                <element label="High" sequence="2" value="High"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Password restrictions" max_length="100" name="password_restrictions" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request Type" mandatory="true" max_length="40" name="request_type" type="choice">
+            <choice>
+                <element label="Planned" sequence="0" value="Planned"/>
+                <element label="Emergency" sequence="1" value="Emergency"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Required Roles /Authority" max_length="100" name="required_roles_authority" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Supervisor" max_length="100" name="supervisor" type="string"/>
+        <element label="Windows Domain / OU" max_length="255" name="windows_domain_ou" type="string"/>
+    </element>
+</database>

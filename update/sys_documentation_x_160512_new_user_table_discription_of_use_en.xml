@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="discription_of_use" label="Discription of Use" language="en" table="x_160512_new_user_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>discription_of_use</element>
+            <help/>
+            <hint/>
+            <label>Discription of Use</label>
+            <language>en</language>
+            <name>x_160512_new_user_table</name>
+            <plural>Discription of Uses</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 15:35:57</sys_created_on>
+            <sys_id>b86dae4b4f010300cca64ea18110c794</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Discription of Use</sys_name>
+            <sys_package display_value="New User" source="x_160512_new_user">dfc96ac74f010300cca64ea18110c7c2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="New User">dfc96ac74f010300cca64ea18110c7c2</sys_scope>
+            <sys_update_name>sys_documentation_x_160512_new_user_table_discription_of_use_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 15:35:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

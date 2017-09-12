@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="account_type" table="x_160512_new_user_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>account_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SAP</label>
+            <language>en</language>
+            <name>x_160512_new_user_table</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 22:44:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d38fc0174fc10300cca64ea18110c78e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 23:00:01</sys_updated_on>
+            <value>SAP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>account_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windows</label>
+            <language>en</language>
+            <name>x_160512_new_user_table</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 23:00:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f50398974fc10300cca64ea18110c7ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 23:00:01</sys_updated_on>
+            <value>Windows</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>account_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Linux</label>
+            <language>en</language>
+            <name>x_160512_new_user_table</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 23:00:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>750398974fc10300cca64ea18110c7f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 23:00:01</sys_updated_on>
+            <value>Linux</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>account_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_160512_new_user_table</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 23:00:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f10398974fc10300cca64ea18110c7f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 23:00:01</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>account_type</element>
+            <name>x_160512_new_user_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 22:44:50</sys_created_on>
+            <sys_id>df8fc0174fc10300cca64ea18110c78e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>account_type</sys_name>
+            <sys_package display_value="New User" source="x_160512_new_user">dfc96ac74f010300cca64ea18110c7c2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="New User">dfc96ac74f010300cca64ea18110c7c2</sys_scope>
+            <sys_update_name>sys_choice_x_160512_new_user_table_account_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 22:44:50</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
